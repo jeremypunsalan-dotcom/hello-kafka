@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: ec2-54-236-254-175.compute-1.amazonaws.com:9092
+      group-id: group-id
+      auto-offset-reset: earliest
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: tech.appscale.apps.service.kafka.hellokafka.view
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+    producer:
+      bootstrap-servers: ec2-54-236-254-175.compute-1.amazonaws.com:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
