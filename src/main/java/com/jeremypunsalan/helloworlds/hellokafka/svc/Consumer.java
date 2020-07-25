@@ -1,11 +1,11 @@
-package tech.appscale.apps.service.kafka.hellokafka.svc;
+package com.jeremypunsalan.helloworlds.hellokafka.svc;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import tech.appscale.apps.service.kafka.hellokafka.view.ServiceProvider;
+import com.jeremypunsalan.helloworlds.hellokafka.view.ServiceProvider;
 
 @Service
 public class Consumer {

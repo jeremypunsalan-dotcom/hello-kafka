@@ -1,4 +1,4 @@
-package tech.appscale.apps.service.kafka.hellokafka.controller;
+package com.jeremypunsalan.helloworlds.hellokafka.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import tech.appscale.apps.service.kafka.hellokafka.svc.Producer;
-import tech.appscale.apps.service.kafka.hellokafka.view.ServiceProvider;
+import com.jeremypunsalan.helloworlds.hellokafka.svc.Producer;
+import com.jeremypunsalan.helloworlds.hellokafka.view.ServiceProvider;
 
 @RestController
 @CrossOrigin

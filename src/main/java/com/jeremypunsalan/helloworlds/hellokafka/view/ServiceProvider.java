@@ -1,4 +1,4 @@
-package tech.appscale.apps.service.kafka.hellokafka.view;
+package com.jeremypunsalan.helloworlds.hellokafka.view;
 
 public class ServiceProvider {
 	

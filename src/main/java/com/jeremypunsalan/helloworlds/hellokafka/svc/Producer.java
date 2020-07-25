@@ -1,4 +1,4 @@
-package tech.appscale.apps.service.kafka.hellokafka.svc;
+package com.jeremypunsalan.helloworlds.hellokafka.svc;
 
 
 import org.slf4j.Logger;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import tech.appscale.apps.service.kafka.hellokafka.view.ServiceProvider;
+import com.jeremypunsalan.helloworlds.hellokafka.view.ServiceProvider;
 
 @Service
 public class Producer {

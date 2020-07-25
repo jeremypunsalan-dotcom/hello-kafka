@@ -1,4 +1,4 @@
-package tech.appscale.apps.service.kafka.hellokafka;
+package com.jeremypunsalan.helloworlds.hellokafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
